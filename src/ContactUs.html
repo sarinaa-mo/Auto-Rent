@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact_Us </title>
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="/src/css/output.css" />
+    
+</head>
+<body class="bg-[#f3f3f3]" >
+
+    <!--#WRAper-->
+    <div class="wrapper lg:max-w-[1440px] w-full mx-auto">
+      <!--#region Banner-->
+      <div
+        class="Banner w-full h-[400px] bg-[url(/src/images/car-1.jpg)] bg-cover bg-center"
+      >
+        <div class="w-full h-full bg-slate-950/50 relative">
+          
+
+          <!--#region menu-->
+           <a href="#header" id="header"></a>
+         
+          <div  class="absolute left-1/2 top-[200px] -translate-x-1/2 -translate-y-1/2 text-[32px] text-[#FDB713] font-bold font-Es" >تماس با ما</div>
+          <div   class="absolute left-1/2 top-[230px] -translate-x-1/2 -translate-y-1/2 text-[14px] font-Es font-thin text-white flex space-y-2.5 ">  اتورنت<img src="/src/images/arrow-left.svg"  alt="">تماس با ما </div>
+
+          <div
+            class="max-w-[1224px] w-full  lg:h-24 h-auto  bg-white mx-auto rounded-b-2xl px-8 flex  lg:justify-between  items-center     ">
+           
+           
+          <div   class="lg:max-w-[152px] h-[59px] w-full  grow justify-center lg:justify-start " ><img src="/src/images/Logo-banner.png  " alt=""  class="h-[55px]" ></div>
+          <div class="max-w-[507px] h-7  ">  
+            <nav class="lg:max-w-full w-fit h-full lg:flex  lg:justify-center lg:gap-x-10  hidden    ">
+              <div><a href="#"  class="font-Es text-[14px] text-[#353535]  hover:text-yellow-400 cursor-pointer ">رزرو خودرو </a></div>
+              <div><a href="#" class="font-Es text-[14px] text-[#353535]   hover:text-yellow-400 cursor-pointer " >خدمات ما  </a></div>
+              <div><a href="#" class="font-Es text-[14px]  text-[#353535]  hover:text-yellow-400 cursor-pointer " >   بلاگ </a></div>
+              <div><a href="#" class="font-Es text-[14px]  text-[#353535]  hover:text-yellow-400 cursor-pointer " > درباره ما </a></div>
+              <div><a href="#" class="font-Es text-[14px]  text-[#353535]  hover:text-yellow-400 cursor-pointer " > تماس  با ما </a></div>
+              <div><a href="#"><img src="/src/images/search-outline.png"  alt="">  </a></div> 
+            </nav>
+           
+          </div>
+            <!--Register-->
+             <div> <a href="#" class="btn btn-primary btn-sm w-fit md:hidden  lg:inline-flex font-Es lg:text-[16px] hidden text:10px font-thin  hover:bg-blue-800  cursor-pointer whitespace-nowrap ">ورود / ثبت‌نام</a>
+              
+            </div>
+
+            <!--------Mobile menu------------->
+                     <div  class=" flex items-center justify-center lg:hidden">
+             <!-- Hamburger BTN -->
+  
+<button id="openHamburger" class="lg:hidden mr-3">
+    <svg class="w-8 h-8 text-gray-700" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+    </svg>
+</button>
+
+
+  <!-- check box -->
+  <input type="checkbox" id="menu-toggle" class="hidden peer">
+
+  <!-- Hamburger Menu -->
+ 
+<div id="hamburgerPanel"
+     class="fixed top-0 right-0 w-64 h-full bg-white shadow-xl z-200
+            translate-x-full transition-all duration-300 lg:hidden">
+
+    <!-- MenuHeader -->
+    <div class="flex items-center justify-between p-4 border-b shadow-lg">
+        <h3 class="font-Es text-[16px] text-[#353535]"><img src="/src/images/Logo-banner.png  " alt="">   </h3> 
+        <button id="closeHamburger" class="text-xl font-bold">✕</button>
+    </div>
+
+    <!-- Menu Items -->
+    <div class="flex flex-col gap-6 p-5 font-Es text-[#353535] text-right">
+
+        <a href="#" class="flex items-center justify-between font-Es hover:text-blue-500">
+            <span>رزرو خودرو</span> <span>›</span>
+        </a>
+
+        <a href="#" class="flex items-center justify-between font-Es hover:text-blue-500">
+            <span>خدمات ما</span> <span>›</span>
+        </a>
+
+        <a href="#" class="flex items-center justify-between font-Es hover:text-blue-500">
+            <span>بلاگ</span> <span>›</span>
+        </a>
+
+        <a href="#" class="flex items-center justify-between font-Es hover:text-blue-500">
+            <span>درباره ما</span> <span>›</span>
+        </a>
+
+        <a href="#" class="flex items-center justify-between font-Es hover:text-blue-500">
+            <span>تماس با ما</span> <span>›</span>
+        </a>
+
+        <a href="#" class="text-blue-600 text-sm mt-2 font-Es">ورود / ثبت‌نام</a>
+    </div>
+</div>
+
+<!-- hamburgerBackdrop-->
+<div id="hamburgerBackdrop"
+     class="fixed inset-0 bg-black/40 backdrop-blur-sm z-150 hidden lg:hidden"></div>
+
+    <!--#EndMobile menu-->
+
+
+          </div>
+
+          </div>
+       <!--#Endregion menu-->
+        
+      </div>
+      <!--#End-region Banner-->
+
+      <!--#ContactInfo-->
+
+     <div class="max-w-[1224px]   mx-auto grid grid-cols-1 lg:grid-col-2  mt-14  lg:flex justify-between bg-white ">
+     <!--#Right-infoSection-->
+     <div class="w-[556px] h-[266px] mt-12  mr-[25px] mb-20 gap-10 flex justify-start flex-col ">
+     <div class="w-full "> <h1 class="font-Es font-semibold text-[#494949] text-24px sm:text-xl gap-4 pb-4  "> ارتباط با دفتر مرکزی اتورنت</h1>
+    <div class="w-[365px] h-px bg-[#C2C2C2]  "></div>
+    </div>
+    <div class="space-y-6 ">
+         <p class=" w-full text-gray-400 font-thin lg:text-[19px]  sm:text-[14px]  text-right font-Es  flex items-center justify-start gap-2 mb-[30px]   ">
+    <a href="#" class="w-6 h-6 block bg-[url('/src/images/contact-Us/location.svg')]  hover:bg-[url('/src/images/contact-Us/location2.svg')] bg-contain bg-no-repeat transition"> </a>
+    <span class="font-Es  lg:text-[20px]  text-gray-800 block  sm:text-[14px]  "> آدرس: </span>
+      تهران، میدان آزادی، خیابان آزادی، خیابان شادمان، پلاک ۲۳ 
+  </p>
+   <p class="text-gray-400 font-thin lg:text-[20px] sm:text-[15px] text-right font-Es  flex items-center justify-start gap-2 mb-[30px]">
+    <a href="#" class="w-6 h-6 block bg-[url('/src/images/contact-Us/location.svg')] hover:bg-[url('/src/images/contact-Us/location2.svg')] bg-contain bg-no-repeat transition"> </a>
+    <span class=" lg:text-[20px] text-gray-800 sm:text-[15px] font-Es "> شماره تماس: </span>
+       <span class="font-vaziriNumber">۰۲۱۶۶۵۵۲۵۸۹</span>
+  </p>
+   <p class="text-gray-400 font-thin lg:text-[20px] sm:text-[15px]  text-right font-Es  flex items-center justify-start gap-2 ">
+    <a href="#" class="w-6 h-6 block bg-[url('/src/images/contact-Us/mail.svg')] hover:bg-[url('/src/images/contact-Us/mail2.svg')] bg-contain bg-no-repeat transition"> </a>
+    <span class="font-es lg:text-[20px] sm:text-[15px]  text-gray-800"> ایمیل: </span>
+              <span  class="font-dancing"> info@AutoRent.com</span>
+  </p>
+
+    </div>
+
+     </div>
+      <!--#End-Right-infoSection-->
+
+      <!--#MapSection-->
+       
+       <div class="max-w-[330px] max-h-[330px]  border border-gray-300 rounded-sm  px-4 lg:mt-14 overflow-hidden shadow-2xl  ">
+        
+     <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.694312051265!2d51.37832187623396!3d35.732449727222734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8e041220e1cc63%3A0x7ceae5db7ca3a065!2sMirdamad%20Blvd%2C%20Tehran!5e0!3m2!1sen!2sir!4v1700000000000!5m2!1sen!2sir"
+          width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+      </div>
+
+      <!--#End-MapSection-->
+
+     </div>
+
+
+<!--#EmailInfo-->
+<section class="w-full mt-14 px-6 lg:px-[108px] flex-wrap bg-white">
+  <div class="max-w-[1224px] mx-auto bg-transparent">
+    <!-- header -->
+    <div class="mb-6">
+      <h1 class="font-Es font-normal text-[#494949] lg:text-[24px] sm:text-[20px]">ارسال پیام شما به مجموعه اتورنت</h1>
+      <div class="w-[365px] h-px bg-[#C2C2C2] mt-4 shadow-lg "></div>
+    </div>
+
+    <!-- forms area: grid 2-column on lg, single-column on small -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
+      
+
+      <!-- right: inputs (name, email, phone) stacked -->
+      <div class="space-y-1">
+        <!-- name -->
+        <div>
+          <label class="flex items-center gap-2 text-[12px] font-Es text-[#9A9A9A] mb-2 relative">
+            <div class="absolute right-5 -top-1  font-Es text-[#AEAEAE] text-[14px] w-fit h-auto px-1 bg-transparent
+            backdrop-blur-sm z-20 sm:text-[10px] "> نام و نام خانوادگی</div>
+          </label>
+          <div class="relative">
+            <input type="text" placeholder="نام شما"
+              class=" clearable-input w-full h-12 pr-4 pl-12 border border-[#AEAEAE] rounded-xl font-Es text-[14px] text-[#9A9A9A] focus:outline-none focus:border-yellow-400" />
+            <!-- inputs -->
+            <input type="radio" name="modal" id="close" class="hidden " />
+           <label for="close" class=" clear-btn absolute left-3 top-1/2 -translate-y-1/2 w-7 h-7 rounded-full bg-amber-400 flex items-center justify-center text-white text-[20px] cursor-pointer text-center  pb-1">&times;</label>
+          </div>
+        </div>
+
+        <!-- email -->
+        <div>
+          <label class="flex items-center gap-2 text-[12px] font-Es text-[#9A9A9A] mb-2 relative">
+            <div class="absolute right-5 -top-1  font-Es text-[#AEAEAE] text-[14px] w-fit h-auto px-1 bg-transparent
+            backdrop-blur-sm z-20 sm:text-[10px] ">  پست الکترونیکی  </div>
+          </label>
+          <div class="relative">
+            <input type="email" placeholder="Mohammad@Gmail.com"
+              class="clearable-input w-full h-12 pr-[50px] pl-12 border border-[#AEAEAE] rounded-xl font-Es text-[14px] text-[#9A9A9A]  focus:outline-none focus:border-yellow-400" />
+            <div class="absolute right-3 top-1/2 -translate-y-1/2 w-7 h-7 rounded-full bg-white/0 flex items-center justify-center text-[#999]">
+              <!--email icon-->
+              <img src="/src/images/contact-Us/mail.svg" alt="" class="w-4 h-4  absolute left-0" />
+            </div>
+             
+           <label for="close" class="absolute left-3 top-1/2 -translate-y-1/2 w-7 h-7 rounded-full bg-amber-400 flex items-center justify-center text-white text-[20px] cursor-pointer pb-1 clear-btn ">&times;</label>
+          </div>
+        </div>
+
+        <!-- phone -->
+        <div>
+          <label class="flex items-center gap-2 text-[12px] font-Es text-[#9A9A9A] mb-2 relative ">
+           <div class="absolute right-5 -top-1  font-Es text-[#AEAEAE] text-[14px] w-fit h-auto px-1 bg-transparent
+            backdrop-blur-sm z-20 sm:text-[10px] "> شماره تماس   </div>
+          </label>
+          <div class="relative">
+            <input type="tel" placeholder="شماره شما"
+              class=" clearable-input w-full h-12 pr-4 pl-12 border border-[#AEAEAE] rounded-xl font-Es text-[14px] text-[#9A9A9A] text-right focus:outline-none focus:border-yellow-400" />
+            <input type="radio" name="modal" id="close" class="hidden " />
+           <label for="close" class="absolute left-3 top-1/2 -translate-y-1/2 w-7 h-7 rounded-full bg-amber-400 flex items-center justify-center text-white text-[20px] cursor-pointer pb-1 clear-btn ">&times;</label>
+          </div>
+        </div>
+      </div>
+      <!-- left: textarea + submit -->
+      <div>
+        <label class="flex items-center gap-2 text-[12px] font-Es text-[#9A9A9A] mb-2">
+          
+        </label>
+
+        <textarea placeholder="متن پیام خود را وارد کنید..." 
+          class="w-full min-h-[180px] border border-[#AEAEAE] rounded-xl p-4 text-[14px] font-Es text-[#333] resize-none focus:outline-none focus:border-yellow-400">
+        </textarea>
+        <div class="  text-left text-[12px] text-[#9A9A9A] font-Es pl-20px  ">۰ / ۲۰۰</div>
+        <div class="flex items-center justify-between mt-3">
+          
+          <button class="w-full bg-[#154CFF] hover:bg-blue-800 focus:ring-blue-300 text-white px-8 py-3 rounded-lg font-Es cursor-pointer">ارسال</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+   <!--#End-EmailInfo-->
+
+
+   
+
+       <!--#Region-Footer-->
+ <footer>
+  <div class="max-w-[1218px]     h-auto mx-auto mt-20  mb-16 bg-[url(/src/images/bg-footer.png)] bg-cover rounded-2xl overflow-hidden ">
+
+   <div class="w-full  mx-auto rounded-2xl bg-slate-950/70 flex flex-col  items-center justify-start  py-12 ">
+    <!--#section1-->
+  <!-- #section1 -->
+<div class="max-w-[1120px] w-full flex flex-col md:flex-row items-center 
+    lg:justify-between sm:justify-start border border-[#868686] rounded-2xl 
+    px-4 md:px-10 py-6 gap-10 md:gap-6 bg-linear-[rgba(41,45,50,0.85)]">
+
+  <!-- Item 1 -->
+  <div class="w-full flex flex-col sm:flex-row items-center gap-3 text-white justify-center">
+    <img src="/src/images/maop-icon.svg" class="w-10 h-10" />
+    <div class="text-center sm:text-right">
+      <p class="font-bold font-Es">آدرس</p>
+      <p class="text-[14px] mt-2 font-Es">تهران – خ شادمان</p>
+    </div>
+  </div>
+
+  <!-- Divider -->
+  <div aria-hidden="true" class="hidden md:block w-px h-10 bg-white/40"></div>
+
+  <!-- Item 2 -->
+  <div class="w-full flex flex-col sm:flex-row items-center gap-3 text-white justify-center">
+    <img src="/src/images/mailbox-icon.svg" class="w-10 h-10" />
+    <div class="text-center sm:text-right">
+      <p class="font-Es font-bold">ایمیل</p>
+      <p class="text-[14px] mt-2 font-dancing">autorent@info.com</p>
+    </div>
+  </div>
+
+  <!-- Divider -->
+  <div aria-hidden="true" class="hidden md:block w-px h-10 bg-white/40"></div>
+
+  <!-- Item 3 -->
+  <div class="w-full flex flex-col sm:flex-row items-center gap-3 text-white justify-center">
+    <img src="/src/images/Telephon-icon.svg" class="w-10 h-10" />
+    <div class="text-center sm:text-right">
+      <p class="font-bold font-Es">ارتباط با ما</p>
+      <p class="text-[14px] mt-2 font-vaziriNumber">۰۹۱۲-۱۲۳۴۵۶۷</p>
+    </div>
+  </div>
+
+</div>
+<!-- #Endsection1 -->
+
+   <!--section2-->
+  <div class="max-w-[1170px] w-full  mt-4  items-center flex flex-col lg:flex-row lg:justify-between justify-center pr-6 gap-6  px-6 ">
+
+      <div class="max-w-[1115px] w-full  md:pr-[27px]  flex flex-col md:flex-row gap-10">
+       <!--Right side-->
+        <div class=" max-w-[572px] w-full  flex flex-col  md:flex-row items-start gap-10">
+            <div class="w-full md:w-auto text-right ">
+           <img src="/src/images/footer-Logo.svg" alt="#">
+           <p class="text-white lg:text-[14px]  leading-6 text-right justify-center font-Es font-thin lg:mt-6 sm:mt-6">
+            اتورنت با رویکرد اعتماد به مشتری، با در اختیار داشتن بزرگترین ناوگان خودرویی متشکل از انواع خودروهای صفر کیلومتر، اقتصادی تا تجاری در سراسر کشور ایران آماده خدمت‌رسانی به مشتریان است.
+            </p>
+           </div>
+           <!--Quik links-->
+           <div class=" w-full  flex flex-col   gap-2    ">
+             <h2 class="text-white text-[14px]  font-Es  font-semibold mb-1 leading-relaxed " >دسترسی آسان</h2>
+            <p class="text-white text-[14px]  font-Es font-thin hover:text-yellow-400 cursor-pointer lg:mt-6 sm:mt-4 " > سوالات متداول </p>
+            <p class="text-white text-[14px]  font-Es font-thin hover:text-yellow-400 cursor-pointer" >  تماس با ما </p>
+             <p class="text-white text-[14px]  font-Es font-thin hover:text-yellow-400 cursor-pointer" >   درباره ما </p>
+             
+  
+           </div>  
+           
+
+
+
+
+             </div>
+                   <!-- Left side (Newsletter) -->
+        <div class=" max-w-[320px] w-full h-20 md:ml-[150px] flex  flex-col  items-start md:gap-3 sm:gap-2 text-right lg:mt-11  ">
+           <h4 class="text-white text-[16px] font-Es font-semibold ">خبرنامه</h4>
+           <form action="#" class="flex items-center border border-gray-400 rounded-md overflow-hidden">
+            <input 
+        type="email" 
+        name="email" 
+        placeholder="ایمیل خود را وارد کنید"
+        class="bg-transparent text-white placeholder-gray-400 text-[14px] font-Es font-thin px-3 py-2 focus:outline-none max-w-[200px]" 
+      />
+      <button 
+        type="submit"
+        class="bg-yellow-500 hover:bg-yellow-400 text-black text-[14px] font-Es font-semibold px-5 py-2 rounded-md  overflow-hidden "
+      >
+        ارسال
+      </button>
+    </form>
+  </div>
+ 
+            </div>
+            <!--#EndRight-side-->
+
+         
+ 
+
+  </div>
+  <!-- خط جداکننده و کپی‌رایت -->
+<div class="w-full max-w-[1170px] mx-auto mt-6 border-t border-white/30 pt-4  ">
+  
+ 
+  <p class="text-white/60 text-[12px] text-center font-Es font-thin flex items-center justify-center gap-1">
+    <img src="/src/images/cc.svg" alt="" class="max-w-4 h-4 ">
+    <span>تمامی حقوق این وب‌سایت متعلق به اتورنت می‌باشد.</span>
+    
+  </p>
+</div>
+ 
+ </div>
+ 
+ 
+  </div>
+
+  
+</footer>
+  <!--#End-Region-Footer-->
+
+    </div>
+    <!--#EndWRAper-->
+
+
+    <!-----#ReturnHeader----->
+   <button   id="scrollTopBtn" class="w-8 h-8 flex items-center justify-center rounded-full ring-2
+                 text-white shadow-xl text-xl hover:bg-yellow-400
+                 transition-all duration-500 wiggle font-Es  font-thin animate-animate  animate-pulse z-50 fixed md:right-[180px] right-5 bottom-8  backdrop-blur-md bg-white/20 border border-white/30 
+  opacity-0 pointer-events-none">
+                <a href=" #header">
+                  
+                  <img src="./images/upSign.svg" alt="#" class="" />
+                </a>
+              </button>
+        <!-----#EndReturnHeader----->
+
+
+
+    <!-- Chat Button -->
+<button id="chatToggle"
+  class="fixed bottom-6 md:left-[180px] left-6 bg-yellow-400 hover:bg-white transition-all duration-300 text-white w-14 h-14 rounded-full shadow-xl flex items-center justify-center text-3xl z-50">
+    <div class="relative">
+    
+    <!-- آیکون حباب چت -->
+    <svg viewBox="0 0 32 32" width="40" class="fill-white stroke-1 stroke-black hover:fill-black">
+      <path d="M12.63,26.46H8.83a6.61,6.61,0,0,1-6.65-6.07,89.05,89.05,0,0,1,0-11.2A6.5,6.5,0,0,1,8.23,3.25a121.62,121.62,0,0,1,15.51,0A6.51,6.51,0,0,1,29.8,9.19a77.53,77.53,0,0,1,0,11.2,6.61,6.61,0,0,1-6.66,6.07H19.48L12.63,31V26.46"/>
+    </svg>
+
+    <!-- سه‌ نقطه -->
+    <div class="absolute bottom-[18px] left-1/2 -translate-x-1/2 flex gap-1 hover:animate-shake">
+      <span class="w-1.5 h-1.5 bg-white rounded-full  animate-animate animate-typing after:content-['']  [animation-delay:0.2s] border border-black"></span>
+      <span class="w-1.5 h-1.5 bg-white rounded-full  animate-animate  animate-typing after:content-[''] [animation-delay:0.2s] border border-black"></span>
+      <span class="w-1.5 h-1.5 bg-white rounded-full  animate-animate animate-typing after:content-[''] [animation-delay:0.4s] border border-black"></span>
+    </div>
+
+  </div>
+</button>
+
+<!-- Chat Box -->
+<div id="chatBox"
+  class="hidden fixed bottom-5 left-1/2 -translate-x-1/2 md:left-[180px] md:translate-x-0 
+  w-[95%] md:w-80 bg-white shadow-2xl rounded-2xl p-4 z-50 border border-gray-200 animate__animated ">
+
+  <!-- Header -->
+  <div class="flex justify-between items-center mb-4">
+    <h3 class="text-lg font-bold font-Es">پشتیبانی آنلاین</h3>
+    <button id="closeChat" class="text-xl text-gray-500">&times;</button>
+  </div>
+
+  <!-- Messages -->
+  <div id="messages" class="h-64 overflow-y-auto border rounded-xl p-3 space-y-3">
+
+    <!-- نمونه پیام سمت پشتیبانی -->
+    <div class="bg-gray-200 text-gray-700 p-2 rounded-xl w-fit max-w-[80%] font-Es ">
+      سلام! چطور می‌تونم کمک‌تون کنم؟
+    </div>
+
+    <!-- Typing Indicator -->
+    <div id="typing" class="hidden bg-gray-200 text-gray-700 p-2 rounded-xl w-fit max-w-[80%]">
+      <div class="flex items-center gap-1">
+        <span class="w-2 h-2 bg-gray-500 rounded-full animate-bounce"></span>
+        <span class="w-2 h-2 bg-gray-500 rounded-full animate-bounce" style="animation-delay: 0.2s"></span>
+        <span class="w-2 h-2 bg-gray-500 rounded-full animate-bounce" style="animation-delay: 0.4s"></span>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Input -->
+  <div class="mt-3 flex gap-2">
+    <input id="chatInput" type="text"
+      class="flex-1 border rounded-xl p-2 text-sm font-Es"
+      placeholder="پیام خود را بنویسید..." />
+    <button id="sendBtn" class="bg-yellow-400 text-white px-4 rounded-xl font-Es">ارسال</button>
+  </div>
+</div>
+
+<!-- Script -->
+<script>
+  const chatToggle = document.getElementById("chatToggle");
+  const chatBox = document.getElementById("chatBox");
+  const closeChat = document.getElementById("closeChat");
+  const sendBtn = document.getElementById("sendBtn");
+  const chatInput = document.getElementById("chatInput");
+  const messages = document.getElementById("messages");
+  const typing = document.getElementById("typing");
+
+  // باز و بسته شدن چت باکس
+  chatToggle.onclick = () => {
+    chatBox.classList.remove("hidden");
+    chatBox.classList.add("animate__fadeInLeft");
+  };
+
+  closeChat.onclick = () => {
+    chatBox.classList.add("hidden");
+  };
+
+  // ارسال پیام
+  sendBtn.onclick = sendMessage;
+  chatInput.addEventListener("keypress", (e) => {
+    if (e.key === "Enter") sendMessage();
+  });
+
+  function sendMessage() {
+    const text = chatInput.value.trim();
+    if (!text) return;
+
+    // ساخت حباب پیام کاربر
+    const bubble = document.createElement("div");
+    bubble.className =
+      "bg-yellow-400 text-white p-2 rounded-xl w-fit max-w-[80%] ml-auto";
+    bubble.innerText = text;
+
+    messages.appendChild(bubble);
+    chatInput.value = "";
+
+    // اسکرول پایین
+    messages.scrollTop = messages.scrollHeight;
+
+    // تایپینگ فعال شود
+    typing.classList.remove("hidden");
+
+    // بعد ۲ ثانیه پیام پشتیبانی بیاید
+    setTimeout(() => {
+      typing.classList.add("hidden");
+
+      const reply = document.createElement("div");
+      reply.className =
+        "bg-gray-200 text-gray-700 p-2 rounded-xl w-fit max-w-[80%]";
+      reply.innerText = "پیام شما دریافت شد 🌟";
+
+      messages.appendChild(reply);
+      messages.scrollTop = messages.scrollHeight;
+    }, 2000);
+  }
+</script>
+
+
+
+<script>
+  const scrollBtn = document.getElementById("scrollTopBtn");
+
+  // نمایش / مخفی شدن دکمه بالا رفتن
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 300) {
+      scrollBtn.classList.remove("opacity-0", "pointer-events-none");
+      scrollBtn.classList.add("opacity-100");
+    } else {
+      scrollBtn.classList.add("opacity-0", "pointer-events-none");
+      scrollBtn.classList.remove("opacity-100");
+    }
+  });
+
+  // اسکرول نرم به بالا
+  scrollBtn.addEventListener("click", (e) => {
+    e.preventDefault();
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  });
+</script>
+
+
+
+
+<script>
+  // Hamburger Menu
+  const openHamburger = document.getElementById("openHamburger");
+  const closeHamburger = document.getElementById("closeHamburger");
+  const hamburgerPanel = document.getElementById("hamburgerPanel");
+  const hamburgerBackdrop = document.getElementById("hamburgerBackdrop");
+
+  openHamburger.onclick = () => {
+    hamburgerPanel.classList.remove("translate-x-full");
+    hamburgerBackdrop.classList.remove("hidden");
+  };
+
+  closeHamburger.onclick = () => {
+    hamburgerPanel.classList.add("translate-x-full");
+    hamburgerBackdrop.classList.add("hidden");
+  };
+
+  hamburgerBackdrop.onclick = () => {
+    hamburgerPanel.classList.add("translate-x-full");
+    hamburgerBackdrop.classList.add("hidden");
+  };
+</script>
+
+<script>
+  // تمام input ها که ضربدر دارند
+  document.querySelectorAll(".clearable-input").forEach((input, index) => {
+    const clearBtn = input.parentElement.querySelector(".clear-btn");
+
+    // وقتی تایپ می‌شود → ضربدر ظاهر می‌شود
+    input.addEventListener("input", () => {
+      if (input.value.trim().length > 0) {
+        clearBtn.classList.remove("opacity-0", "pointer-events-none");
+        clearBtn.classList.add("opacity-100");
+      } else {
+        clearBtn.classList.add("opacity-0", "pointer-events-none");
+        clearBtn.classList.remove("opacity-100");
+      }
+    });
+
+    // وقتی ضربدر زده شود → پاک + محو شدن
+    clearBtn.addEventListener("click", () => {
+      input.value = "";
+      input.focus();
+      clearBtn.classList.add("opacity-0", "pointer-events-none");
+      clearBtn.classList.remove("opacity-100");
+    });
+  });
+</script>
+
+ 
+
+
+
+
+
+
+    
+</body>
+</html>
