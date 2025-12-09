@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>boutUs</title>
+     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+     <link rel="stylesheet" href="./src/css/output.css" />
+     <link rel="shortcut icon" href="./src/images/favicon.ico" type="image/x-icon">
+   
+
+  </head>
+  <body  class="bg-[#f3f3f3]">
+    <!--#WRAper-->
+    <div class="wrapper lg:max-w-[1440px] w-full mx-auto">
+          <!--#region Banner-->
+      <div
+        class="Banner w-full h-[400px]  bg-cover bg-center" style="background-image: url('./src/images/car-1.jpg');"
+      >
+        <div class="w-full h-full bg-slate-950/50 relative">
+          
+
+          <!--#region menu-->
+           <a href="#header" id="header"></a>
+         
+          <div  class="absolute left-1/2 top-[200px] -translate-x-1/2 -translate-y-1/2 text-[32px] text-[#FDB713] font-bold font-Es" >تماس با ما</div>
+          <div   class="absolute left-1/2 top-[230px] -translate-x-1/2 -translate-y-1/2 text-[14px] font-Es font-thin text-white flex space-y-2.5 ">  اتورنت<img src="./src/images/arrow-left.svg"  alt="">تماس با ما </div>
+
+          <div
+            class="max-w-[1224px] w-full  lg:h-24 h-auto  bg-white mx-auto rounded-b-2xl px-8 flex  lg:justify-between  items-center     ">
+           
+           
+          <div   class="lg:max-w-[152px] h-[59px] w-full  grow justify-center lg:justify-start " ><img src="./src/images/Logo-banner.png  " alt=""  class="h-[55px]" ></div>
+          <div class="max-w-[507px] h-7  ">  
+            <nav class="lg:max-w-full w-fit h-full lg:flex  lg:justify-center lg:gap-x-10  hidden    ">
+              <div><a href="./User.html"  class="font-Es text-[14px] text-[#353535]  hover:text-yellow-400 cursor-pointer ">رزرو خودرو </a></div>
+              <div><a href="#" class="font-Es text-[14px] text-[#353535]   hover:text-yellow-400 cursor-pointer " >خدمات ما  </a></div>
+              <div><a href="./index.html"class="font-Es text-[14px]  text-[#353535]  hover:text-yellow-400 cursor-pointer " >   بلاگ </a></div>
+              <div><a href="./AboutUs.html"class="font-Es text-[14px]  text-[#353535]  hover:text-yellow-400 cursor-pointer " > درباره ما </a></div>
+              <div><a href="./ContactUs.html"class="font-Es text-[14px]  text-[#353535]  hover:text-yellow-400 cursor-pointer " > تماس  با ما </a></div>
+              <div><a href="#"><img src="./src/images/search-outline.png"  alt="">  </a></div> 
+            </nav>
+           
+          </div>
+            <!--Register-->
+             <div> <a href="#" class="btn btn-primary btn-sm w-fit md:hidden  lg:inline-flex font-Es lg:text-[16px] hidden text:10px font-thin  hover:bg-blue-800  cursor-pointer whitespace-nowrap ">ورود / ثبت‌نام</a>
+              
+            </div>
+
+            <!--------Mobile menu------------->
+                     <div  class=" flex items-center justify-center lg:hidden">
+             <!-- Hamburger BTN -->
+  
+<button id="openHamburger" class="lg:hidden mr-3">
+    <svg class="w-8 h-8 text-gray-700" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+    </svg>
+</button>
+
+
+  <!-- check box -->
+  <input type="checkbox" id="menu-toggle" class="hidden peer">
+
+  <!-- Hamburger Menu -->
+ 
+<div id="hamburgerPanel"
+     class="fixed top-0 right-0 w-64 h-full bg-white shadow-xl z-200
+            translate-x-full transition-all duration-300 lg:hidden">
+
+    <!-- MenuHeader -->
+    <div class="flex items-center justify-between p-4 border-b shadow-lg">
+        <h3 class="font-Es text-[16px] text-[#353535]"><img src="./src/images/Logo-banner.png  " alt="">   </h3> 
+        <button id="closeHamburger" class="text-xl font-bold">✕</button>
+    </div>
+
+    <!-- Menu Items -->
+    <div class="flex flex-col gap-6 p-5 font-Es text-[#353535] text-right">
+
+        <a href="#" class="flex items-center justify-between font-Es hover:text-blue-500">
+            <span>رزرو خودرو</span> <span>›</span>
+        </a>
+
+        <a href="#" class="flex items-center justify-between font-Es hover:text-blue-500">
+            <span>خدمات ما</span> <span>›</span>
+        </a>
+
+        <a href="#" class="flex items-center justify-between font-Es hover:text-blue-500">
+            <span>بلاگ</span> <span>›</span>
+        </a>
+
+        <a href="#" class="flex items-center justify-between font-Es hover:text-blue-500">
+            <span>درباره ما</span> <span>›</span>
+        </a>
+
+        <a href="#" class="flex items-center justify-between font-Es hover:text-blue-500">
+            <span>تماس با ما</span> <span>›</span>
+        </a>
+
+        <a href="#" class="text-blue-600 text-sm mt-2 font-Es">ورود / ثبت‌نام</a>
+    </div>
+</div>
+
+<!-- hamburgerBackdrop-->
+<div id="hamburgerBackdrop"
+     class="fixed inset-0 bg-black/40 backdrop-blur-sm z-150 hidden lg:hidden"></div>
+
+    <!--#EndMobile menu-->
+
+
+          </div>
+
+          </div>
+       <!--#Endregion menu-->
+        
+      </div>
+      <!--#End-region Banner-->
+      <!--#region content-->
+  
+       <div  class="w-full lg:px-[110px] pt-14 mx-auto box-border pb-10 px-6" >
+        <!--intro-->
+        <div class="lg:max-w-[1220px] w-full max-w-full rounded-2xl bg-white p-6 box-border ">
+          <div class="w-full flex mx-auto  gap-y-1 flex-col px-6">
+            <h1 class="lg:text-xl text-[16px] font-Es  "> معرفی اتورنت </h1>
+            <div class="w-full h-[3px] bg-[#D7D7D7]">
+              <div class="w-10 h-full bg-[#FDB713]"></div>
+            </div>
+          </div>
+          <div class="font-Es md:text-[14px] text-[11px] font-normal leading-[180%] md:line-clamp-4 line-clamp-3 text-[#353535] mt-3 text-justify"
+          >
+            <p class="font-">
+              اتورنت  با رویکرد اعتماد به مشتری، در ابتدا با ایجاد بزرگترین ناوگان خودرویی متشکل از انواع خودروهای صفر کیلومتر، اقتصادی تا تجاری در سراسر کشور ایران و در تمامی شهرهای اصلی کشور و تمامی فرودگاه های اصلی و با هدف ارتقاء واقعی خدمات خوب و خدماتی همانندکشورهای پیــــشرفته در مــیهن عزیزمان ایران سرمایه‌گذاری نموده و این مهم با جلب همکاری سایر شرکای تجاری و جذب سرمایه تا رسیدن به هدف ایجاد‌ شبکه ای بالغ بر صد هزار خودرو و گسترش شبکه به کلیه شهرستانهای کوچک ایران ادامه خواهد یافت.مدل تـجاری اتورنت ، با محوریت اعـتماد به مشتری، امـکان اجاره خودرو با استانداردهای روز دنیا و بدون دریافت تضامین سنتی همانند چک و سفته و اسناد ملکی را فراهم می سازد.
+
+            </p>
+          </div>
+
+        </div>
+
+        <!--End-intro-->
+        
+       </div> 
+      <!--#Endregion content-->
+
+      <!--#Region-Properties-->
+
+      <div  class="mx-auto py-6 box-border h-auto lg:px-[110px] px-6" >
+      <div class="w-full max-w-full md:max-w-[1220px] h-auto flex flex-col md:flex-row gap-y-5 md:gap-x-6 md:gap-y-0 justify-center">
+
+      <div class="bg-[#ffffff] rounded-2xl xl:w-[350px] lg:w-[300px] w-full mx-auto h-auto border border-[#D7D7D7] cursor-pointer px-6 py-4 ">
+        
+         <div class="max-w-[264px] h-[154px] gap-2 pt-4 pb-4  flex items-center flex-col justify-center">
+          <img src="./src/images/delivery.svg" class="" alt="#">
+         <h2 class="text-[16px] font-Es font-bold  leading-[140%] mx-auto mt-2 text-[#414141] text-center ">تحویل در محل </h2>
+         <p   class="text-[12px] font-Es font-thin text-center leading-[180%] text-[#757575] mx-auto" >  تحویل خودرو در زمان و مکان تعیین شده توسط شما خواهد بود. </p>
+         </div>
+        
+      </div>
+ 
+      
+      <div class="bg-[#ffffff] rounded-2xl xl:w-[350px] lg:w-[300px] w-full mx-auto h-auto border border-[#D7D7D7] cursor-pointer px-6 py-4 ">
+        
+         <div class="max-w-[264px] h-[154px] gap-2 pt-4 pb-4  flex items-center flex-col justify-center">
+          <img src="./src/images/24-icon.svg" class="" alt="#">
+         <h2 class="text-[16px] font-Es font-bold  leading-[140%] mx-auto mt-2 text-[#414141] text-center ">پشتیبانی 24 ساعته</h2>
+         <p   class="text-[12px] font-Es font-thin text-center leading-[180%] text-[#757575] mx-auto" >  تحویل خودرو در زمان و مکان تعیین شده توسط شما خواهد بود. </p>
+         </div>
+        
+      </div>
+ 
+       
+      <div class="bg-[#ffffff] rounded-2xl xl:w-[350px] lg:w-[300px] w-full mx-auto h-auto border border-[#D7D7D7] cursor-pointer px-6 py-4 ">
+        
+         <div class="max-w-[264px] h-[154px] gap-2 pt-4 pb-4  flex items-center flex-col justify-center">
+          <img src="./src/images/fairprice-icon.svg" class="" alt="#">
+         <h2 class="text-[16px] font-Es font-bold  leading-[140%] mx-auto mt-2 text-[#414141] text-center ">قیمت مناسب   </h2>
+         <p   class="text-[12px] font-Es font-thin text-center leading-[180%] text-[#757575] mx-auto" >  تحویل خودرو در زمان و مکان تعیین شده توسط شما خواهد بود. </p>
+         </div>
+        
+      </div>
+ 
+      </div>
+    </div>
+      
+   
+      <!--#EndRegion-Properties-->
+
+
+    <!--#region-content-2-->
+      
+  
+      <div  class="w-full lg:px-[110px]  pb-[22px] px-6" >
+        <!--intro-->
+        <div class="md:max-w-[1220px] w-full max-w-full rounded-2xl bg-white p-6 box-border ">
+          <div class=" w-full mx-auto  gap-y-1 flex-col ">
+            <h1 class="lg:text-[24px] font-Es w-full text-[16px] "> شبکه نمایندگان و شرکتهای اجاره خودروی همکار</h1>
+            <div class="w-full h-[3px] bg-[#D7D7D7]">
+              <div class="w-10 h-full bg-[#FDB713]"></div>
+            </div>
+          </div>
+          <div class="font-Es md:text-[14px] text-[11px] font-normal leading-[180%] md:line-clamp-6 line-clamp-4 text-[#353535] mt-3 text-justify">
+            <p class="">
+            اتورنت دارای شبکه ای شامل ایستگاه های داخل شهری و فرودگاهی می باشد که این ایستگاه ها توسط نمایندگان و شرکای تجاری نگهداری و مدیریت می‌گردند، افرادی که علاقمند به سرمایه‌گذاری و همکاری با ناواران می‌باشند می‌توانند بصورت نمایندگی یا همکار تجاری فعالیت نمایند ، در هر صورت این اشخاص می بایست دوره های آموزش را طبق استاندارد بین‌المللی گذرانده و تحت استاندارد و کیفیت مورد نیاز ناواران شروع به فعالیت نمایند. <br>  دارا بودن سرمایه مورد نیاز جهت خرید حداقل تعداد خودروهای صفر کیلومتر در محدوده تحت پوشش و قبل از هرچیز اهمیت به اصل خدمت به هموطنان و رضایت مشتریان از شرایط اصلی اعطای نمایندگی می بانمایندگان دارای اپلیکیشن موبایل و سیستم آنلاین مرتبط با سامانه مدیریت مرکزی می باشند، و تمامی امور رزرو و محاسبات مرتبط بصورت خودکار انجام پذیرفته و نمایندگان از پشتیبانی کامل شرکت مرکزی در تمامی مراحل برخوردار خواهند بود.
+            </p>
+          </div>
+
+        </div>
+        <!--End-intro-->
+      </div> 
+        <!--#endregion-content-2-->
+        <!--#Region-Car-repairs-info-->
+           <!-- #region car-repairs-->
+      <div class="w-full lg:px-[110px] px-6">
+        <div
+          class="md:max-w-[1220px] w-full h-[590px] rounded-2xl bg-cover bg-center" style="background-image: url(./src/images/frame2.png);"
+        >
+          <div class="w-full h-full bg-black/60 relative rounded-2xl">
+            <div
+              class="md:max-w-[1172px] w-full h-[45px] font-Es md:text-[32px] sm:text-[24px] md:mb-4 leading-[180%] text-white text-center absolute top-[50%] whitespace-nowrap"
+            >
+              <p>شبکه امدادی و تعمیرات خودرو</p>
+            </div>
+            <div
+              class="font-Es h-auto text-[12px] leading-[180%] md:mx-[142px] mx-[70px] text-white text-center absolute top-[60%] line-clamp-4"
+            >
+              <p>
+                شبکه تحت پوشش اتورنت که با سرمایه‌گذاری و همکاری شرکای تجاری در
+                خدمت مشتریان قرار گرفته است شامل 2000 نقطه در سراسر کشور ایــران
+                و مناطق آزاد تجاری مـی‌باشد که باعث شده سرعت امداد رسانی در هر
+                نقطه ایران به کمتر از 30 دقیقه کاهش یابد، امدادگران و خودروهای
+                امدادی همگی مجهز به تجهیزات جهت رفع معایب و تعمیرات ساده بوده و
+                بسیاری از مشکلات در همین مرحله به سادگی رفع می گردند.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="h-auto flex flex-col md:flex-row gap-y-5 md:gap-x-6 md:gap-y-0 justify-center mx-auto md:-mt-[70px] mt-2.5 relative z-5"
+        >
+          <div
+            class="xl:max-w-[490px] md:w-[40%] rounded-2xl border border-[#C2C2C2] bg-white lg:h-[145px]"
+          >
+            <h2
+              class="w-fit font-Es text-[16px] font-bold mt-3 border-b-2 border-[#FDB713] mx-auto"
+            >
+              خدمات شبانه روزی
+            </h2>
+            <p
+              class="font-Es text-[12px] my-2.5 mx-6 text-justify leading-[180%] line-clamp-4"
+            >
+              اتورنت در تــمامی بخش‌های اصـلی از جـمله مرکز تماس مشتریان و خدمات
+              امدادی بصورت دائمی تمامی روزهای هفته و 24 ساعته فعال است، بیشتر
+              ایستگاه های کاری تحویل خودرو نیز بصورت 24 ساعته می‌باشند ، فقط
+              واحد اداری و فروش اجاره های بلند مدت در ساعات اداری و روزهای اداری
+              فعال می باشند.
+            </p>
+          </div>
+          <div
+            class="xl:max-w-[490px] md:w-[40%] rounded-2xl border border-[#C2C2C2] bg-white lg:h-[145px]"
+          >
+            <h2
+              class="w-fit font-Es text-[16px] font-bold mt-3 border-b-2 border-[#FDB713] mx-auto"
+            >
+              ارائه خودرو جایگزین
+            </h2>
+            <p
+              class="font-Es text-[14px] my-2.5 mx-6 text-justify leading-[180%] line-clamp-4"
+            >
+              با توجه به تعداد خودرو های موجود در اتورنت امکان ارائه خودروی
+              جایگزین در خرابی ها و تعمیرات طولانی مدت که بصورت امدادی برطرف
+              نگردند ، در هر نقطه از ایران میسر می باشد.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- #endregion car-repairs-->
+ <!--#EndRegion-Car-repairs-info-->
+  
+     
+    
+     <!--#Region-Footer-->
+ <footer>
+  <div class="w-full lg:px-[108px] px-6 py-10">
+  <div class="md:max-w-[1218px]  w-full   h-fit mx-auto mt-20  mb-16  bg-cover rounded-2xl " style="background-image: url('/src/images/bg-footer.png');" >
+
+   <div class="w-full h-full mx-auto rounded-2xl bg-slate-950/70 flex flex-col  items-center justify-start md:p[50px] p-5 box-border ">
+    <!--#section1-->
+  <div class="md:max-w-[1120px] w-full mx-auto p-4 box-border border border-[#868686] rounded-2xl flex flex-col md:flex-row md:justify-between md:items-center md:gap-y-0 gap-y-5 min-h-[180px] md:min-h-0 ">
+
+    <!-- Item 1 -->
+      <div class="flex gap-x-4 md:[38px] box-border">
+    <div class="md:max-w-[254px] md:h-[69px]  flex  items-center gap-3 md:text-[14px] text:[12px] text-white justify-center">
+      <img src="./src/images/maop-icon.svg" class="w-10 h-10 " />
+      <div class="text-center">
+        <p class="font-bold font-Es">آدرس</p>
+        <p class="text-[14px] mt-4 font-Es ">تهران – خ شادمان</p>
+      </div>
+      </div>
+    </div>
+     <!-- Divider -->
+      <div aria-hidden="true" class="hidden md:block w-px h-10 bg-white/40"></div>
+
+
+    <!-- Item 2 -->
+     <div class="flex gap-x-4 md:[38px] box-border">
+    <div class="max-w-[254px] lg:h-[69px] flex items-center gap-3 text-white justify-center  lg:pr-6">
+      <img src="./src/images/mailbox-icon.svg" class="w-10 h-10" />
+      <div class="text-center">
+        <p class=" font-Es font-bold">ایمیل</p>
+        <p class="text-[14px] mt-4 font-dancing">autorent@info.com</p>
+      </div>
+      </div>
+    </div>
+     <!-- Divider -->
+      <div aria-hidden="true" class="hidden md:block w-px h-10 bg-white/40"></div>
+
+
+    <!-- Item 3 -->
+     <div class="flex gap-x-4 md:[38px] box-border">
+    <div class="max-w-[254px] lg:h-[69px] flex   items-center gap-4 text-white lg:justify-center ">
+      <img src="./src/images/Telephon-icon.svg" class="w-10 h-10 items-start-right " />
+      <div class="text-center ">
+        <p class="font-bold font-Es">ارتباط با ما</p>
+        <p class="text-[14px] mt-4 font-vaziriNumber">۰۹۱۲-۱۲۳۴۵۶۷</p>
+      </div>
+      </div>
+    </div>
+  </div>
+   <!--#Endsection1-->
+   <!--section2-->
+  <div class="max-w-[1170px] w-full  mt-4  items-center flex flex-col lg:flex-row lg:justify-between justify-center md:pr-6 sm:pr-3 gap-6  px-6 ">
+
+      <div class="max-w-[1115px] w-full  md:pr-[27px] box-border flex flex-col md:flex-row gap-10">
+       <!--Right side-->
+        <div class=" max-w-[572px] w-full  flex flex-col  md:flex-row items-start gap-10">
+            <div class="w-full md:w-auto text-right ">
+           <img src="./src/images/footer-Logo.svg" alt="#">
+           <p class="text-white lg:text-[14px]  leading-6 text-right justify-center font-Es font-thin lg:mt-6 sm:mt-6 ">
+            اتورنت با رویکرد اعتماد به مشتری، با در اختیار داشتن بزرگترین ناوگان خودرویی متشکل از انواع خودروهای صفر کیلومتر، اقتصادی تا تجاری در سراسر کشور ایران آماده خدمت‌رسانی به مشتریان است.
+            </p>
+           </div>
+           <!--Quik links-->
+           <div class="w-full  flex flex-col   gap-2">
+             <h2 class="text-white text-[14px]  font-Es  font-semibold mb-1 leading-relaxed " >دسترسی آسان</h2>
+            <p class="text-white text-[14px]  font-Es font-thin hover:text-yellow-400 cursor-pointer lg:mt-6 sm:mt-4 " > سوالات متداول </p>
+            <p class="text-white text-[14px]  font-Es font-thin hover:text-yellow-400 cursor-pointer" >  تماس با ما </p>
+             <p class="text-white text-[14px]  font-Es font-thin hover:text-yellow-400 cursor-pointer" >   درباره ما </p>
+  
+           </div>  
+           
+
+
+
+
+             </div>
+                   <!-- Left side (Newsletter) -->
+        <div class="lg:w-[30%] sm:w-[70%] w-full lg:py-11">
+                <p
+                  class="font-Es text-[16px] leading-[100%] text-right mb-5 text-[#FFFFFF]"
+                >
+                  خبرنامه
+                </p>
+                <form>
+                  <div class="relative">
+                    <input
+                      type="email"
+                      id="email"
+                      class="block w-full h-10 rounded-md p-3 border border-[#868686] text-heading text-sm shadow-xs text-[#C2C2C2] font-Es"
+                      placeholder="ایمیل خود را وارد کنید"
+                      required
+                    />
+                    <button
+                      type="button"
+                      class="btn btn-ghost absolute end-1 bottom-1 text-[#212121] font-Es text-[14px] leading-[180%] bg-[#FDB713] rounded-md w-[66px] h-8 font-semibold"
+                    >
+                      ارسال
+                    </button>
+                  </div>
+                </form>
+              </div>
+ 
+            </div>
+            <!--#EndRight-side-->
+
+         
+ 
+
+  </div>
+  <!-- خط جداکننده و کپی‌رایت -->
+<div class="w-full max-w-[1170px] mx-auto mt-6 border-t border-white/30 pt-4  ">
+  
+ 
+  <p class="text-white/60 text-[12px] text-center font-Es font-thin flex items-center justify-center gap-1">
+    <img src="./src/images/cc.svg" alt="" class="max-w-4 h-4 ">
+    <span>تمامی حقوق این وب‌سایت متعلق به اتورنت می‌باشد.</span>
+    
+  </p>
+</div>
+ 
+ </div>
+ 
+ 
+  </div>
+ </div>
+  
+</footer>
+  <!--#End-Region-Footer-->
+
+
+
+
+
+
+      </div>
+    <!--#EndWRAper-->
+    
+
+
+<script    src="./src/js/main.js"></script>
+
+
+
+<script>
+  // Hamburger Menu
+  const openHamburger = document.getElementById("openHamburger");
+  const closeHamburger = document.getElementById("closeHamburger");
+  const hamburgerPanel = document.getElementById("hamburgerPanel");
+  const hamburgerBackdrop = document.getElementById("hamburgerBackdrop");
+
+  openHamburger.onclick = () => {
+    hamburgerPanel.classList.remove("translate-x-full");
+    hamburgerBackdrop.classList.remove("hidden");
+  };
+
+  closeHamburger.onclick = () => {
+    hamburgerPanel.classList.add("translate-x-full");
+    hamburgerBackdrop.classList.add("hidden");
+  };
+
+  hamburgerBackdrop.onclick = () => {
+    hamburgerPanel.classList.add("translate-x-full");
+    hamburgerBackdrop.classList.add("hidden");
+  };
+</script>
+ 
+
+
+
+  </body>
+
+</html>
